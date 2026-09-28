@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+*.pdf
+/files.zip
+/raw/*.md
+/raw/originals/*
+!/raw/originals/.gitkeep
