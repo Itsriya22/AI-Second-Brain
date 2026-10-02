@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-10-01T17:48:44+05:30",
+  "nodes": [
+    {
+      "id": "9b1ea3eb",
+      "label": "Command to Capture All Notes in One Place",
+      "category": "projects",
+      "tags": [
+        "capture",
+        "single-place",
+        "command",
+        "ideas",
+        "links",
+        "notes"
+      ],
+      "summary": "Create a command that captures ideas, links, and notes into a single place.",
+      "path": "wiki/projects/command-to-capture-all-notes-in-one-place.md",
+      "preview": "You have no single place to put things. Ideas, links, and notes scatter across apps, browser tabs, and your memory. Build the foundation: one command that captures anything into one place."
+    },
+    {
+      "id": "9a8fd845",
+      "label": "Edge Cases Reference",
+      "category": "projects",
+      "tags": [
+        "edge-cases",
+        "testing",
+        "documentation",
+        "qa",
+        "software"
+      ],
+      "summary": "A comprehensive list of edge cases and expected behaviors for the capture, classification, and graphing components of the system.",
+      "path": "wiki/projects/edge-cases-reference.md",
+      "preview": "# SecondSelf — Edge Cases and Corner Scenarios > Derived from `architecture.md` and `implementation-plan.md`. Each case has an ID, the scenario, the **expected behavior**, a priority, and the phase in which it should be handled or tested. Phase 7 works through this file; Phase 6 and Phase 9 reuse it as a test checklist. **Priority:** 🔴 P0 must handle (data loss, security, crash) · 🟠 P1 should h..."
+    },
+    {
+      "id": "b168b7f8",
+      "label": "Implementation Plan",
+      "category": "projects",
+      "tags": [
+        "implementation",
+        "plan",
+        "phases",
+        "secondself",
+        "wiki",
+        "pipeline"
+      ],
+      "summary": "A detailed phase‑by‑phase implementation plan for building a SecondSelf knowledge management system.",
+      "path": "wiki/projects/implementation-plan.md",
+      "preview": "# SecondSelf — Implementation Plan > Phase-wise plan derived from `ProblemStatement.md` and `architecture.md`. ## Phase Overview | Phase | Name | Type | Outcome | |---|---|---|---| | 0 | Setup | Setup | Repo scaffold, environment, config, API key working | | 1 | Capture Pipeline | Implement | `capture.py` saves notes/links/files to `raw/` | | 2 | Auto-Classification | Implement | `classify.py`..."
+    },
+    {
+      "id": "fce298c3",
+      "label": "Masai Live Capstone Idea",
+      "category": "projects",
+      "tags": [
+        "masai",
+        "live",
+        "capstone",
+        "idea",
+        "observation"
+      ],
+      "summary": "Idea or observation about Masai Live capstone project.",
+      "path": "wiki/projects/masai-live-capstone-idea.md",
+      "preview": "a real idea or observation about your Masai Live capstone project"
+    },
+    {
+      "id": "613f3191",
+      "label": "SecondSelf Architecture Overview",
+      "category": "projects",
+      "tags": [
+        "architecture",
+        "para",
+        "knowledge-management",
+        "streamlit",
+        "embeddings",
+        "llm"
+      ],
+      "summary": "A design document outlining a file-based personal knowledge pipeline using PARA, LLMs, embeddings, and a Streamlit UI.",
+      "path": "wiki/projects/secondself-architecture-overview.md",
+      "preview": "# SecondSelf — Architecture > How we will build the project described in `ProblemStatement.md`. ## 1. Overview SecondSelf is a pipeline of small, single-purpose Python modules that share a **file-based data store** (`raw/`, `wiki/`, `graph.json`) and are surfaced through one Streamlit app. **Design principles** - **Files as the database.** Plain Markdown and JSON. Human-readable, git-friendly,..."
+    },
+    {
+      "id": "7ce34169",
+      "label": "SecondSelf architecture question",
+      "category": "projects",
+      "tags": [
+        "architecture",
+        "question",
+        "secondself",
+        "todo"
+      ],
+      "summary": "Open question about SecondSelf's architecture.",
+      "path": "wiki/projects/secondself-architecture-question.md",
+      "preview": "a to-do or open question you currently have about SecondSelf's architecture"
+    },
+    {
+      "id": "c74a3181",
+      "label": "SecondSelf Project Plan",
+      "category": "projects",
+      "tags": [
+        "ai",
+        "knowledgebase",
+        "automation",
+        "graph",
+        "streamlit"
+      ],
+      "summary": "A 4‑week plan to build an end‑to‑end personal AI second brain that captures, auto‑classifies, auto‑links, visualizes, and answers queries over your notes.",
+      "path": "wiki/projects/secondself-project-plan.md",
+      "preview": "Project: SecondSelf — Your Personal AI Second Brain ProblemStatement.md Every notes app fails the same way: you capture hundreds of notes, bookmarks, PDFs, and ideas — and then you never find them again. Information goes in, but nothing comes back out. Notes sit in folders nobody re-reads. Bookmarks pile up unread. Knowledge doesn't compound. Goal: Build an end-to-end system where you can captu..."
+    },
+    {
+      "id": "5c79e7ea",
+      "label": "SecondSelf — Your Personal AI Second Brain",
+      "category": "projects",
+      "tags": [
+        "ai",
+        "knowledge-management",
+        "paradigm",
+        "graph",
+        "automation",
+        "streamlit"
+      ],
+      "summary": "A system to capture, classify, link, visualize, and query personal knowledge using AI and a PARA-based wiki.",
+      "path": "wiki/projects/secondself-your-personal-ai-second-brain.md",
+      "preview": "# SecondSelf — Your Personal AI Second Brain ## Problem Statement Every notes app fails the same way: you capture hundreds of notes, bookmarks, PDFs, and ideas, and then you never find them again. Information goes in, but nothing comes back out. Notes sit in folders nobody re-reads, bookmarks pile up unread, and knowledge doesn't compound. Ideas, links, and notes are scattered across apps, brow..."
+    },
+    {
+      "id": "d62162d9",
+      "label": "CRM Failure: Why Implementations Fail and How to Succeed",
+      "category": "resources",
+      "tags": [
+        "crm",
+        "failure",
+        "customerexperience",
+        "salesprocess",
+        "implementation",
+        "cloud",
+        "socialselling"
+      ],
+      "summary": "An article discussing why CRM implementations fail and how to avoid them by focusing on customer experience, process, and executive support.",
+      "path": "wiki/resources/crm-failure-why-implementations-fail-and-how-to-succeed.md",
+      "preview": "Title: CRM failure — Tony Hughes Blog — RSVP Selling Content: CRM failure — Tony Hughes Blog — RSVP Selling Welcome LinkedIn Author Blog Latest Articles Clients Reference Clients Welcome Create Pipeline Complex Sale Resources Blog Contact Welcome LinkedIn Author Blog Latest Articles Clients Reference Clients Welcome Create Pipeline Complex Sale Resources Blog Contact CRM failure April 1, 2018 A..."
+    },
+    {
+      "id": "215237b4",
+      "label": "Feasibility Analysis Guide",
+      "category": "resources",
+      "tags": [
+        "feasibility",
+        "businessmodel",
+        "marketanalysis",
+        "revenueforecasting",
+        "riskmanagement",
+        "ai"
+      ],
+      "summary": "A comprehensive guide covering feasibility analysis pillars, business model canvases, market sizing, revenue forecasting, risk management, and AI applications.",
+      "path": "wiki/resources/feasibility-analysis-guide.md",
+      "preview": "Feasibility Analysis Pillars of Product Success Desirability Does the user actually want/need the product? Will customers pay the proposed price? Example: Best toaster in the world at $250 vs regular toaster at $8 - most won't pay 250x more for marginal improvement Feasibility Is it technologically possible to build? Can the organization execute it? Considers technical, organizational, and reso..."
+    },
+    {
+      "id": "bab038cf",
+      "label": "Market Scanning & Competitive Intelligence Session",
+      "category": "resources",
+      "tags": [
+        "market-scanning",
+        "competitive-intelligence",
+        "ai-tools",
+        "pestle",
+        "porter's-5-forces",
+        "sentiment-analysis"
+      ],
+      "summary": "This session covers systematic market scanning, competitive intelligence frameworks, AI tools, and case studies for product managers.",
+      "path": "wiki/resources/market-scanning-competitive-intelligence-session.md",
+      "preview": "Session 3: Scan Karo, Then Plan Karo Market Scanning Fundamentals 📋 Overview This session focuses on market scanning - the systematic process of monitoring and analyzing the business environment to identify opportunities, threats, and trends. The content emphasizes moving from traditional static analysis to AI-powered continuous market intelligence. 🎯 Learning Objectives ● Macro and Microenviro..."
+    },
+    {
+      "id": "80eb586e",
+      "label": "Product Management Overview",
+      "category": "resources",
+      "tags": [
+        "productmanagement",
+        "productdefinition",
+        "productclassification",
+        "digitalproducts",
+        "ai-products",
+        "productroles",
+        "producthistory"
+      ],
+      "summary": "An overview of product definitions, classifications, roles, and the evolution of product management across physical, digital, and AI products.",
+      "path": "wiki/resources/product-management-overview.md",
+      "preview": "Introduction to Products and Product Management What is a Product? Philip Kotler's Definition According to marketing guru Philip Kotler (2010): \"Anything that can be offered to the market for attention, acquisition, use, or consumption, and that satisfies a want or a need, is a product.\" Key Insight : This definition encompasses physical objects, virtual services, and hybrid offerings. Products..."
+    },
+    {
+      "id": "8fb0629f",
+      "label": "Product Strategy Insight",
+      "category": "resources",
+      "tags": [
+        "product-strategy",
+        "learning",
+        "module",
+        "insight"
+      ],
+      "summary": "A personal insight from the Product Strategy module.",
+      "path": "wiki/resources/product-strategy-insight.md",
+      "preview": "something you learned from the Product Strategy module that stood out to you"
+    },
+    {
+      "id": "be5afd7d",
+      "label": "Product Strategy Overview",
+      "category": "resources",
+      "tags": [
+        "productmanagement",
+        "marketsegmentation",
+        "strategicplanning",
+        "ansoffmatrix",
+        "aiimpact",
+        "productlifecycle"
+      ],
+      "summary": "A comprehensive guide covering market classification, strategic planning frameworks, and AI impact on product strategy.",
+      "path": "wiki/resources/product-strategy-overview.md",
+      "preview": "Product Management: Markets and Strategic Planning Market Deﬁnition and Classiﬁcation Core Deﬁnition A market is a speciﬁc group of potential customers who have a particular need that a product aims to address. Every business requires both a product and a market to exist. Market Classiﬁcation Framework 1. Consumer Markets Mass Markets Broad demographic appeal with cross-segment usage Examples:..."
+    },
+    {
+      "id": "80ac8189",
+      "label": "Qoder AI Coding Assistant",
+      "category": "resources",
+      "tags": [
+        "ai-coding",
+        "ide",
+        "plugin",
+        "qoder",
+        "automation"
+      ],
+      "summary": "Qoder is an AI coding platform offering code completion, conversational programming, and automatic generation, integrating with VS Code and JetBrains.",
+      "path": "wiki/resources/qoder-ai-coding-assistant.md",
+      "preview": "Title: Qoder - AI Coding Assistant | Autonomous Development IDE Description: Qoder is a next-generation AI programming platform that offers intelligent code completion, AI conversational programming, and automatic code generation. It supports mainstream IDEs like VS Code and JetBrains. Download for free. Content: Qoder - AI Coding Assistant | Autonomous Development IDE Product Enterprise Pricin..."
+    }
+  ],
+  "edges": [
+    {
+      "from": "215237b4",
+      "to": "be5afd7d",
+      "weight": 1.0,
+      "reason": "embedding"
+    },
+    {
+      "from": "5c79e7ea",
+      "to": "613f3191",
+      "weight": 1.0,
+      "reason": "embedding"
+    },
+    {
+      "from": "5c79e7ea",
+      "to": "9b1ea3eb",
+      "weight": 1.0,
+      "reason": "embedding"
+    },
+    {
+      "from": "5c79e7ea",
+      "to": "c74a3181",
+      "weight": 1.0,
+      "reason": "embedding"
+    },
+    {
+      "from": "613f3191",
+      "to": "b168b7f8",
+      "weight": 1.0,
+      "reason": "embedding"
+    },
+    {
+      "from": "613f3191",
+      "to": "c74a3181",
+      "weight": 1.0,
+      "reason": "embedding"
+    },
+    {
+      "from": "80eb586e",
+      "to": "be5afd7d",
+      "weight": 1.0,
+      "reason": "embedding"
+    },
+    {
+      "from": "8fb0629f",
+      "to": "be5afd7d",
+      "weight": 1.0,
+      "reason": "embedding"
+    },
+    {
+      "from": "9a8fd845",
+      "to": "b168b7f8",
+      "weight": 1.0,
+      "reason": "embedding"
+    },
+    {
+      "from": "9b1ea3eb",
+      "to": "c74a3181",
+      "weight": 1.0,
+      "reason": "embedding"
+    },
+    {
+      "from": "bab038cf",
+      "to": "be5afd7d",
+      "weight": 1.0,
+      "reason": "embedding"
+    }
+  ]
+}

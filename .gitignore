@@ -8,3 +8,7 @@ __pycache__/
 /raw/*.md
 /raw/originals/*
 !/raw/originals/.gitkeep
+/wiki/**
+!/wiki/**/
+!/wiki/**/*.md
+/wiki/.obsidian/

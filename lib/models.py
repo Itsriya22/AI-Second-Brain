@@ -16,6 +16,14 @@ class RawNote:
 
 
 @dataclass
+class Classification:
+    category: str
+    tags: list[str]
+    summary: str
+    title: str
+
+
+@dataclass
 class WikiNote:
     id: str
     category: str
@@ -29,8 +37,8 @@ class WikiNote:
 
 @dataclass
 class Graph:
-    nodes: list[dict[str, object]]
-    edges: list[dict[str, object]]
+    nodes: list[dict[str, str | list[str]]]
+    edges: list[dict[str, str | float]]
     generated_at: str
 
 

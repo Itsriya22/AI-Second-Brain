@@ -2,7 +2,9 @@
 
 import re
 from datetime import datetime
+import os
 from pathlib import Path
+import tempfile
 
 import yaml
 
@@ -44,6 +46,39 @@ def write_raw_note(note: RawNote, raw_dir: Path = RAW_DIR) -> Path:
         path.unlink(missing_ok=True)
         raise
     return path
+
+
+def update_raw_note(path: Path, note: RawNote) -> None:
+    """Atomically replace an existing raw note, preserving its canonical path."""
+    if path != raw_note_path(note, path.parent):
+        raise ValueError(f"Raw note ID or timestamp does not match its path: {path}")
+    metadata = {
+        "id": note.id,
+        "captured_at": note.captured_at,
+        "source_type": note.source_type,
+        "source_ref": note.source_ref or "",
+        "title": note.title or "",
+        "processed": note.processed,
+    }
+    content = f"---\n{yaml.safe_dump(metadata, sort_keys=False, allow_unicode=True)}---\n\n{note.body}"
+    temporary_path: Path | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            newline="\n",
+            dir=path.parent,
+            prefix=f".{path.name}.",
+            suffix=".tmp",
+            delete=False,
+        ) as temporary_file:
+            temporary_file.write(content)
+            temporary_path = Path(temporary_file.name)
+        os.replace(temporary_path, path)
+    except OSError:
+        if temporary_path is not None:
+            temporary_path.unlink(missing_ok=True)
+        raise
 
 
 def read_raw_note(path: Path) -> RawNote:
