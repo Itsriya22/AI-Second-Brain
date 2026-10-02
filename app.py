@@ -5,7 +5,6 @@ from pathlib import Path
 import re
 
 import streamlit as st
-import streamlit.components.v1 as components
 
 from ask import ask
 from config import GRAPH_PATH, ROOT_DIR, WIKI_DIR
@@ -135,7 +134,7 @@ def _render_graph(graph: dict[str, object]) -> None:
     if not nodes:
         st.info("Your graph is empty. Capture and classify notes to grow your brain.")
         return
-    components.html(_graph_html(graph), height=_GRAPH_HEIGHT, scrolling=False)
+    st.iframe(_graph_html(graph), height=_GRAPH_HEIGHT)
     legend = "　".join(
         f"{color} **{category.title()}**"
         for category, color in (

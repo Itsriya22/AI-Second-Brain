@@ -20,4 +20,6 @@ The app uses `all-MiniLM-L6-v2` for query embeddings. The first question on a ne
 
 See [the deployment plan](./docs/deployment-plan.md) for privacy review, setup, and live verification steps.
 
+Live app: [SecondSelf on Streamlit Community Cloud](https://ai-second-brain-nfkx63fnajjgmeypjesgq8.streamlit.app/)
+
 **Privacy warning:** A public GitHub repository and public Streamlit app make committed wiki Markdown, graph data, and embeddings publicly accessible. Review every note before publishing; never commit `.env`, API keys, raw captures, or original files.
